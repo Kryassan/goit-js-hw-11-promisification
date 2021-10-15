@@ -7,8 +7,3 @@
 };
 
 const logger = (time) => console.log(`Resolved after ${time}ms`);
-
-console.log(delay(3000).then(logger));
-
-
-
